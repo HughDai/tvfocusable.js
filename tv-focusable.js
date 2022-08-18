@@ -762,8 +762,8 @@ var FocusData = function () {
       });
     return h
   }(FocusCore);
-tvCore = new FocusAble;
-document.removeEventListener("keydown", tvCore.focusKeyDownEvent, !1);
-document.addEventListener("keydown", tvCore.focusKeyDownEvent);
-document.removeEventListener("keyup", tvCore.focusKeyUpEvent, !1);
-document.addEventListener("keyup", tvCore.focusKeyUpEvent);
+window.tvCore = new FocusAble;
+document.removeEventListener("keydown", window.tvCore.focusKeyDownEvent, !1);
+document.addEventListener("keydown", window.tvCore.focusKeyDownEvent);
+document.removeEventListener("keyup", window.tvCore.focusKeyUpEvent, !1);
+document.addEventListener("keyup", window.tvCore.focusKeyUpEvent);
