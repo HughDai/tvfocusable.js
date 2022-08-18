@@ -1,4 +1,4 @@
-var __extends = this && this.__extends || function () {
+!function(){ var __extends = this && this.__extends || function () {
   var p = function (h, a) {
     p = Object.setPrototypeOf || {
       __proto__: []
@@ -767,3 +767,4 @@ document.removeEventListener("keydown", window.tvCore.focusKeyDownEvent, !1);
 document.addEventListener("keydown", window.tvCore.focusKeyDownEvent);
 document.removeEventListener("keyup", window.tvCore.focusKeyUpEvent, !1);
 document.addEventListener("keyup", window.tvCore.focusKeyUpEvent);
+}()
