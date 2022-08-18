@@ -168,7 +168,7 @@ var FocusData = function () {
         return c
       };
       a.readXPath = function (b) {
-        if ("" !== b.id) return "//*[@id="' + b.id + '"]';
+        if ("" !== b.id) return "\/\/*[@id=" + b.id + "]";
         if (b == document.body) return "/html/" + b.tagName.toLowerCase();
         for (var c = 1, d = b.parentNode.childNodes,
             e = 0, m = d.length; e < m; e++) {
